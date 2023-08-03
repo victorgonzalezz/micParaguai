@@ -1,8 +1,14 @@
+import { Header } from "./components/Header"
+import { MainPage } from "./components/MainPage"
+
 function App() {
 
   return (
     <>
-     <h1>Mic Paraguai</h1>
+      <div className="App">
+        <Header />
+        <MainPage />
+     </div>
     </>
   )
 }
