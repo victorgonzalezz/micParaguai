@@ -1,7 +1,14 @@
+import '../styles/mainPage.scss'
 export function MainPage() {
   return (
     <div className="mainPage">
-      <h1>This is gonna be our default page</h1>
-  </div>
+      <div className='container'>
+        <h1>Container</h1>
+        <div className='content'>
+          <img src="../img/Login.svg" alt="Login" />
+        </div>
+
+      </div>
+    </div>
 )
 }
