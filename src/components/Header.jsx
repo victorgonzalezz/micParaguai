@@ -1,4 +1,4 @@
-import  "../styles/header.scss"
+import  "../styles/_header.scss"
 export function Header() {
   return (
     <div className="header">
